@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Rectangle{
+        constructor(lengt,width) {
+            this._lengt = lengt;
+            this._width = width;
+        }
+        perimeter(){
+            return (this._width+this._lengt)*2;
+        }
+        area (){
+            return this._lengt*this._width;
+        }
+
+
+    }
+    let rectangle = new Rectangle(12,12);
+    document.write("Diện tích: "+rectangle.area()+"<br>");
+    document.write("Chu vi: "+rectangle.perimeter());
+
+
+</script>
+
+</body>
+</html>
